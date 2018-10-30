@@ -47,10 +47,10 @@
         </div>
     </nav>
 </div>
-<div class="container">
+<div class="container mt-4">
     <div class="row">
-        <div class="col-8">
-            <div>
+        <div class="col-lg-8">
+            {{--<div>
                 <div class="media mt-4">
                     <div class="media-body">
                         <h4 class="mt-0 mb-1">Media object</h4>
@@ -67,30 +67,46 @@
                 </div>
 
                 <div class="dropdown-divider"></div>
-            </div>
-            <div class="media mt-4">
-                <div class="media-body">
-                    <h4 class="mt-0 mb-1">Media object</h4>
-                    <p class="text-muted">
-                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                    </p>
+            </div>--}}
+            <div class="list-group">
+                <div class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="d-flex justify-content-between">
+                                <h4 class="mb-1 font-weight-bold">List group item heading</h4>
+                                <small class="text-muted">3 days ago</small>
+                            </div>
+                            <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                            <small class="text-muted w-75">Donec id elit non mi porta.</small>
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid" src="/images/timg.jpg" alt="">
+                        </div>
+                    </div>
                 </div>
-                <img class="ml-3" width="150" src="/images/timg.jpg" alt="Generic placeholder image">
             </div>
-            <div class="dropdown-divider"></div>
-            <div class="media mt-4">
-                <div class="media-body">
-                    <h4 class="mt-0 mb-1">Media object</h4>
-                    <p class="text-muted">
-                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                    </p>
+            <div class="list-group">
+                <div class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="d-flex justify-content-between">
+                                <h4 class="mb-1 font-weight-bold">List group item heading</h4>
+                                <small class="text-muted">3 days ago</small>
+                            </div>
+                            <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                            <small class="text-muted w-75">Donec id elit non mi porta.</small>
+                        </div>
+                        <div class="col-4" style="height: 140px;overflow: hidden;">
+                            <img class="img-fluid" src="/images/phone1.jpg" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="dropdown-divider"></div>
         </div>
-        <div class="col-4"></div>
+        <div class="col-lg-4"></div>
     </div>
 </div>
+
 <script src="/js/app.js"></script>
 </body>
 </html>
